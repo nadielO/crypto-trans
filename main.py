@@ -80,6 +80,7 @@ async def handle_events():
 
 
 async def main():
+    print("Code is running...")
     await handle_events()
 
 if __name__ == "__main__":
